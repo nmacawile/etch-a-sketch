@@ -1,0 +1,96 @@
+body {
+	background-color: #ddd;
+}
+
+#container{
+	width: 650px;
+	margin: 20px auto;
+}
+
+#title {
+	font-size: 24px;
+	font-family: arial, sans-serif;
+	text-align: center;
+	color: #555;
+}
+
+#header {
+	text-align: center;
+}
+
+#grid{
+	display: table;
+	border-collapse: collapse;
+	height: 600px;
+	margin: auto;/*
+	background: white url('redevet.jpg') no-repeat center;/**/
+	background-color: black;
+	background-size: auto 100%;/**/
+}
+
+.inactive  {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 10px;
+	text-shadow:0px 1px 0px #ffffff;
+	margin: 10px 5px;
+}
+
+input[type=button].inactive:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+input[type=button]:active {
+	position:relative;
+	top:1px;
+}
+
+.active {
+	
+	box-shadow:inset 0px 1px 0px 0px #f7c5c0;	
+	background:linear-gradient(to bottom, #fc8d83 5%, #e4685d 100%);	
+	background-color:#fc8d83;	
+	border-radius:6px;
+	border:1px solid #d83526;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 10px;
+	text-shadow:0px 1px 0px #b23e35;
+	margin: 10px 5px;
+}
+
+.row {
+	/*border: 1px solid blue;/**/
+	display: table-row;
+	border-collapse: initial;
+}
+
+.cell {
+	background-color: white;
+	/*border: 1px solid blue;/**/
+	/*border-radius: 50%;/**/
+	display: table-cell;
+}
+
+#footer {
+	padding: 5px 0;
+}
+
+span {
+	font-family: Arial, sans-serif;
+	margin-right: 5px;
+	color: #555;
+}
+
