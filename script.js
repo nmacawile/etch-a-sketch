@@ -36,13 +36,7 @@ $(document).ready(function() {
 		else if(colors){			
 			r+= Math.floor(Math.random()>.5)?Math.floor(16*Math.random()):-1*Math.floor(16*Math.random());
 			g+= Math.floor(Math.random()>.5)?Math.floor(16*Math.random()):-1*Math.floor(16*Math.random());
-			b+= Math.floor(Math.random()>.5)?Math.floor(16*Math.random()):-1*Math.floor(16*Math.random());
-			
-			
-			if (r>255)
-				r-=32;
-			else if (r<0)
-				r+=32;			
+			b+= Math.floor(Math.random()>.5)?Math.floor(16*Math.random()):-1*Math.floor(16*Math.random());	
 			
 			if (r>255)
 				r-=32;
