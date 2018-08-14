@@ -6,7 +6,8 @@ Hover your mouse across the canvas with the `PEN` tool on. You can toggle the `P
 
 ## The tools
 There are three tools to choose from: 1) `PEN`, 2) `COLORS`, and 3) `BURN`.
-Note: All tool keys are assigned to the keybaord numbers below the function keys, not the `NUMPAD` numbers.
+
+Note: All tool keys are assigned to the keyboard numbers below the function keys, not the `NUMPAD` numbers.
 
 ### PEN
 Blackens the target 1x1 square. It is assigned to the key `1`.
