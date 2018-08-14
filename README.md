@@ -16,7 +16,7 @@ Blackens the target 1x1 square. It is assigned to the key `1`.
 Paints the 3x3 area with a random color. It was designed so that the generated value is close to the previously generated one for smoother transition. It is assigned to the key `2`.
 
 ### BURN
-Darkens the target 3x3 area with a focus in the center. Partially burned (grayish) can still be colored but they will apear slightly darker. Totally burned (black) areas won't be affected by the `COLOR` tool.  It is assigned to the key `3`.
+Darkens the target 3x3 area with a focus in the center. Each pass on an area darkens it even more until it is completely black. Partially burned (grayish) can still be colored but they will apear slightly darker. Totally burned (black) areas won't be affected by the `COLOR` tool.  It is assigned to the key `3`.
 
 ## Changing tools
 You can switch anytime by pressing their assigned keys on your keyboard. Pressing the key of the tool currently in use will toggle it off, allowing you to move your cursor along the canvas without messing up your drawing.
