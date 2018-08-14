@@ -25,4 +25,4 @@ You can switch anytime by pressing their assigned keys on your keyboard. Pressin
 Hit the `SPACE` key to clear your current canvas.
 
 ## Changing the resolution of the canvas
-Press '0' key to generate a new canvas. You will be allowed to set your desired resolution. You can generate up to 128x128 canvas but you may experience some hiccups during the generation process depending on your system.
+Press `0` key to generate a new canvas. You will be allowed to set your desired resolution. You can generate up to 128x128 canvas but you may experience some hiccups during the generation process depending on your system.
